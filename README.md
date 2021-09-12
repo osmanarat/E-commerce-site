@@ -1,5 +1,21 @@
 # E-commerce-site
 
+<?php 
+
+try {
+
+    $con=new PDO("mysql:host=localhost;dbname=iste_eticaret;charset=utf8",'root','');
+
+	//echo "Veritabanı bağlantısı başarılı";
+
+} catch (PDOExpception $e) {
+
+	echo $e->getMessage();
+}
+
+
+?>
+
 The file iste_vtabani.php IN CONFIG is as above.
 After creating your .sql file with local host on Xamp server, you should change it according to your database name and password.
 
