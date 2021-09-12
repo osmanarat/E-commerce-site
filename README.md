@@ -1,5 +1,7 @@
 # E-commerce-site
 
+# DB CONNECTION : 
+
 try {
 
     $con=new PDO("mysql:host=localhost;dbname=iste_eticaret;charset=utf8",'root','');
@@ -21,3 +23,9 @@ Then you should throw these files from explorer in xamp server or into htdocs in
 Then, when you type https:\\localhost\iste_eticaret in your address line, the index page will appear.
 
 You can check the READY STATE OF THE SITE: https:\\www.osman.web.tr\iste_E-Commerce/
+
+# DB CONNECTION TEST
+
+/iste_E-Commerce/config/iste_vtabani.php
+
+By entering the file // delete the comment line, you can see the database connection successful text on the screen.
