@@ -20,4 +20,4 @@ The related .sql database is called iste_eticaret.sql. this is also attached.
 Then you should throw these files from explorer in xamp server or into htdocs in xamp server file location.
 Then, when you type https:\\localhost\iste_eticaret in your address line, the index page will appear.
 
-You can check the READY STATE OF THE SITE: https:\\www.osman.web.tr\iste_eticaret.
+You can check the READY STATE OF THE SITE: https:\\www.osman.web.tr\iste_E-Commerce/
